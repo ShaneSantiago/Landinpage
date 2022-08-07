@@ -77,9 +77,6 @@ export const Container = styled.div`
     margin-top: 0;
     color: white;
   }
-
-
-
 button{
     color: #29abe2;
     background-color: #012d51;
@@ -88,73 +85,24 @@ button{
     padding: 20px;
     cursor: pointer;
     font-size: 20px;
-    margin-top: 30px;
+    margin: 30px auto;
 }
-`;
-
-export const ContainerTabela = styled.div`
-    width: 100%;
-    height: 300px;
-
-.title-column{
-    color: #29abe2;
-    font-family: Roboto-Light;
-    font-size: 20px;
-    font-weight: 25;
-}
-.container-table{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.number-table{
-    color: #012d51;
-}
-table{
-    margin-top: 20px;
-    border-collapse: collapse;
-}
-table th, tr, td{
-    padding: 10px;
-    color: #012d51;
-}
-.row-name-info{
-    text-align: center;
-    border-left: 2px solid #29abe2;
-    border-bottom: 2px solid #29abe2;
-    color: #012d51;
-    font-family: Roboto-Regular;
-    font-size: 12px;
-}
-.row-name{
-    text-align: center;
-    border-bottom: 2px solid #29abe2;
-}
-.row-info{
-    text-align: center;
-    border-left: 2px solid #29abe2;
-    border-bottom: 2px solid #29abe2;
-    color: #808080;
-    font-family: Helvetica-Regular;
-}
-.row-info2{
-    text-align: center;
-    border-left: 2px solid #29abe2;
-    text-align: center;
-    color: #808080;
-    font-family: Helvetica Condensed Regular;
-}
-.row-number{
-    text-align: center;
-    border-bottom: 2px solid #29abe2;
-    color: #012d51;
-    font-family: Roboto;
-}
-.row-number2{
-    text-align: center;
-    color: #012d51;
-    font-family: Roboto;
+@media(max-width: 800px){
+    .container-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .label-float input{
+        width: 320px;
+    }
 }
 `;
 

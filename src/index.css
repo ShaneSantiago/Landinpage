@@ -34,9 +34,4 @@ code {
   font-style: normal;
   
 }
-@font-face {
-  font-family: 'Helvetica-Regular';
-  src: local('Helvetica-Regular'), url(/public/Fonts/ps.ttf) format('truetype');
-
-}
 
